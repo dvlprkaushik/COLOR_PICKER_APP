@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c-picker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 50px;
+    font-size: 3rem;
+}
+
+.c-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 12px 150px 30px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.c-display{
+    font-size: 1.2rem;
+    color: rgb(208, 208, 208);
+}
+
+.c-display label{
+    font-weight: bold;
+}
+.c-picker input[type="color"]{
+    width: 150px;
+    margin-top: 20px;
+}
